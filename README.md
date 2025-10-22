@@ -34,6 +34,14 @@
     ```bash
     pip install -r requirements.txt
     ```
+    如果你在中国大陆，可能需要先更换pip的镜像源：
+    ```bash
+    pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+    ```
+    然后再安装库会快很多
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 ### 第三步：安装浏览器驱动
 
